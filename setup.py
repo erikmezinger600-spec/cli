@@ -51,9 +51,12 @@ setup(
     python_requires=">=3.8",
     install_requires=requirements,
     entry_points={
-        "console_scripts": [
-            "pcsploit=pcsploit.server:main",
-            "pcsploit-generate=pcsploit.generator:main",
+    "console_scripts": [
+        "pcsploit=pcsploit.server:main",
+        "pcsploit-generate=pcsploit.generator:main",
+        "pcsploit-client=pcsploit.client:main",
+    ],
+},
         ],
     },
     package_data={
