@@ -9,6 +9,7 @@ from commands.version import version_cmd
 from commands.cat import cat_cmd
 from commands.echo import echo_cmd
 from commands.open import open_cmd
+from commands.ipconfig import ipconfig_cmd
 
 COMMANDS = {
     "help": help_cmd,
