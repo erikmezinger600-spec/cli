@@ -6,6 +6,7 @@ from commands.rem import rem_cmd
 from commands.mkdir import mkdir_cmd
 from commands.pwd import pwd_cmd
 from commands.version import version_cmd
+from commands.cat import cat_cmd
 
 COMMANDS = {
     "help": help_cmd,
