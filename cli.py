@@ -8,6 +8,7 @@ from commands.pwd import pwd_cmd
 from commands.version import version_cmd
 from commands.cat import cat_cmd
 from commands.echo import echo_cmd
+from commands.open import open_cmd
 
 COMMANDS = {
     "help": help_cmd,
