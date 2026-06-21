@@ -53,7 +53,7 @@ setup(
     entry_points={
         "console_scripts": [
             "pcsploit=pcsploit.server:main",
-            "pcsploit-generate=pcsploit.payload_generator:main",
+            "pcsploit-generate=pcsploit.generator:main",
         ],
     },
     package_data={
